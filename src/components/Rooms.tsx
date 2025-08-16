@@ -5,30 +5,30 @@ const Rooms = () => {
   const rooms = [
     {
       id: 1,
-      name: "Deluxe King Suite",
+      name: "Maharaja Suite",
       image: "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800",
-      price: "$299",
-      features: ["King Bed", "2 Guests", "City View", "Mini Bar"],
+      price: "₹3,500",
+      features: ["King Bed", "2 Guests", "Garden View", "Mini Bar"],
       amenities: [Bed, Users, Coffee, Wifi],
-      description: "Elegant suite featuring contemporary design with premium amenities and stunning city views."
+      description: "Spacious suite with traditional Bihari decor and modern amenities, offering serene garden views."
     },
     {
       id: 2,
-      name: "Executive Ocean View",
+      name: "Heritage Room",
       image: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
-      price: "$449",
-      features: ["Queen Bed", "3 Guests", "Ocean View", "Balcony"],
+      price: "₹2,800",
+      features: ["Queen Bed", "3 Guests", "Courtyard View", "Balcony"],
       amenities: [Bed, Users, Coffee, Car],
-      description: "Luxurious oceanfront suite with private balcony and exclusive access to executive lounge."
+      description: "Beautifully appointed room showcasing local craftsmanship with private balcony overlooking the courtyard."
     },
     {
       id: 3,
-      name: "Presidential Penthouse",
+      name: "Royal Family Suite",
       image: "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800",
-      price: "$899",
-      features: ["King Bed", "4 Guests", "Panoramic View", "Private Dining"],
+      price: "₹5,200",
+      features: ["King Bed", "4 Guests", "City View", "Private Dining"],
       amenities: [Bed, Users, Utensils, Wifi],
-      description: "Ultimate luxury with panoramic views, private dining area, and personalized concierge service."
+      description: "Premium family suite with separate living area, private dining space, and panoramic views of Madhepur."
     }
   ];
 

@@ -6,22 +6,22 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Luxury Avenue", "Downtown District", "New York, NY 10001"]
+      details: ["Main Road, Near Railway Station", "Madhepur, Madhubani District", "Bihar 847408, India"]
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 765-4321"]
+      details: ["+91 98765 43210", "+91 87654 32109"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@grandeurhotel.com", "reservations@grandeurhotel.com"]
+      details: ["info@hotelmaheshwari.com", "reservations@hotelmaheshwari.com"]
     },
     {
       icon: Clock,
       title: "Reception Hours",
-      details: ["24/7 Available", "Check-in: 3:00 PM", "Check-out: 11:00 AM"]
+      details: ["24/7 Available", "Check-in: 12:00 PM", "Check-out: 11:00 AM"]
     }
   ];
 
@@ -33,8 +33,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ready to experience luxury? Contact us to make a reservation or 
-            inquire about our exclusive packages and special offers.
+            Ready to experience authentic Bihari hospitality? Contact us to make a reservation or 
+            inquire about our cultural tour packages and local sightseeing options.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="text-center">
                   <MapPin className="w-12 h-12 text-gray-500 mx-auto mb-2" />
                   <p className="text-gray-600">Interactive Map</p>
-                  <p className="text-sm text-gray-500">Downtown District, New York</p>
+                  <p className="text-sm text-gray-500">Madhepur, Madhubani, Bihar</p>
                 </div>
               </div>
             </div>

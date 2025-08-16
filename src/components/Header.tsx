@@ -31,7 +31,7 @@ const Header = () => {
             <h1 className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Grandeur Hotel
+              Hotel Maheshwari
             </h1>
           </div>
 
@@ -56,11 +56,11 @@ const Header = () => {
           }`}>
             <div className="flex items-center space-x-1">
               <Phone size={16} />
-              <span className="text-sm">+1 (555) 123-4567</span>
+              <span className="text-sm">+91 98765 43210</span>
             </div>
             <div className="flex items-center space-x-1">
               <Mail size={16} />
-              <span className="text-sm">info@grandeurhotel.com</span>
+              <span className="text-sm">info@hotelmaheshwari.com</span>
             </div>
           </div>
 

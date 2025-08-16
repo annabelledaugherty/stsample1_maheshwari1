@@ -11,20 +11,20 @@ const Footer = () => {
 
   const quickLinks = [
     "Rooms & Suites",
-    "Dining",
+    "Bihari Cuisine",
     "Amenities",
-    "Events",
-    "Spa & Wellness",
-    "Business Center"
+    "Cultural Tours",
+    "Local Attractions",
+    "Event Booking"
   ];
 
   const services = [
     "Concierge Service",
     "Room Service",
-    "Valet Parking",
-    "Airport Shuttle",
+    "Secure Parking",
+    "Railway Station Pickup",
     "Laundry Service",
-    "Pet-Friendly"
+    "Tour Arrangements"
   ];
 
   return (
@@ -34,10 +34,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-16">
           {/* Hotel Info */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold">Grandeur Hotel</h3>
+            <h3 className="text-2xl font-bold">Hotel Maheshwari</h3>
             <p className="text-gray-300 leading-relaxed">
-              Experience unparalleled luxury and exceptional service in the heart of the city. 
-              Your comfort is our commitment.
+              Experience authentic Bihari hospitality and cultural richness in the heart of Madhepur. 
+              Your comfort and cultural journey is our commitment.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -93,18 +93,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-yellow-600 mt-1" />
                 <div className="text-gray-300">
-                  <p>123 Luxury Avenue</p>
-                  <p>Downtown District</p>
-                  <p>New York, NY 10001</p>
+                  <p>Main Road, Near Railway Station</p>
+                  <p>Madhepur, Madhubani District</p>
+                  <p>Bihar 847408, India</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-yellow-600" />
-                <p className="text-gray-300">+1 (555) 123-4567</p>
+                <p className="text-gray-300">+91 98765 43210</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-yellow-600" />
-                <p className="text-gray-300">info@grandeurhotel.com</p>
+                <p className="text-gray-300">info@hotelmaheshwari.com</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 py-6 text-center">
           <p className="text-gray-400">
-            © 2024 Grandeur Hotel. All rights reserved. | 
+            © 2024 Hotel Maheshwari. All rights reserved. | 
             <a href="#" className="hover:text-yellow-400 ml-2">Privacy Policy</a> | 
             <a href="#" className="hover:text-yellow-400 ml-2">Terms of Service</a>
           </p>

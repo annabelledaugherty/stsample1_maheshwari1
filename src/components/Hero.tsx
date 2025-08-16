@@ -17,12 +17,12 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Experience Luxury
-          <span className="block text-yellow-400">Redefined</span>
+          Welcome to
+          <span className="block text-yellow-400">Hotel Maheshwari</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto">
-          Discover unparalleled elegance and comfort in the heart of the city. 
-          Your extraordinary stay begins here.
+          Experience authentic hospitality and comfort in the heart of Madhepur, Bihar. 
+          Where tradition meets modern luxury.
         </p>
 
         {/* Booking Form */}

@@ -3,9 +3,9 @@ import { Award, Heart, Globe, Star } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { number: "50+", label: "Years of Excellence", icon: Award },
-    { number: "10,000+", label: "Happy Guests", icon: Heart },
-    { number: "25", label: "Countries Served", icon: Globe },
+    { number: "25+", label: "Years of Excellence", icon: Award },
+    { number: "5,000+", label: "Happy Guests", icon: Heart },
+    { number: "15", label: "States Served", icon: Globe },
     { number: "4.9/5", label: "Guest Rating", icon: Star }
   ];
 
@@ -16,19 +16,20 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              A Legacy of
-              <span className="block text-yellow-600">Exceptional Hospitality</span>
+              Authentic Bihar
+              <span className="block text-yellow-600">Hospitality</span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              For over five decades, Grandeur Hotel has been the epitome of luxury 
-              and elegance in the hospitality industry. Our commitment to excellence 
-              and personalized service has made us a preferred destination for 
-              discerning travelers from around the world.
+              For over two decades, Hotel Maheshwari has been a beacon of warm 
+              hospitality in Madhepur, Bihar. Our commitment to traditional values 
+              combined with modern amenities has made us a preferred destination for 
+              travelers exploring the rich cultural heritage of Bihar.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Every detail of your stay is carefully curated by our dedicated team 
-              of hospitality professionals, ensuring that your experience exceeds 
-              expectations and creates memories that last a lifetime.
+              Nestled in the heart of Madhepur, we offer our guests an authentic 
+              experience of Bihari culture while ensuring all modern comforts. 
+              Our dedicated team takes pride in showcasing the warmth and hospitality 
+              that Bihar is renowned for.
             </p>
             
             {/* Stats */}
@@ -56,8 +57,8 @@ const About = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-xl">
               <div className="text-center">
-                <div className="text-2xl font-bold text-yellow-600">Award Winner</div>
-                <div className="text-sm text-gray-600">Hotel of the Year 2024</div>
+                <div className="text-2xl font-bold text-yellow-600">Certified</div>
+                <div className="text-sm text-gray-600">Bihar Tourism Board</div>
               </div>
             </div>
           </div>

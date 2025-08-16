@@ -4,44 +4,44 @@ import { Waves, Dumbbell, Utensils, Car, Wifi, Coffee, Shield, Gift } from 'luci
 const Amenities = () => {
   const amenities = [
     {
-      icon: Waves,
-      title: "Infinity Pool",
-      description: "Rooftop infinity pool with panoramic city views and poolside service."
+      icon: Utensils,
+      title: "Authentic Cuisine",
+      description: "Traditional Bihari cuisine and North Indian specialties prepared by expert chefs."
     },
     {
       icon: Dumbbell,
       title: "Fitness Center",
-      description: "State-of-the-art 24/7 fitness center with personal training available."
+      description: "Well-equipped fitness center with modern equipment and yoga facilities."
     },
     {
-      icon: Utensils,
-      title: "Fine Dining",
-      description: "Award-winning restaurants featuring world-class cuisine and wine selection."
+      icon: Waves,
+      title: "Garden Restaurant",
+      description: "Open-air dining experience in our beautiful landscaped gardens."
     },
     {
       icon: Car,
       title: "Valet Parking",
-      description: "Complimentary valet parking service for all hotel guests."
+      description: "Secure parking facilities with 24/7 security for all guests."
     },
     {
       icon: Wifi,
       title: "High-Speed WiFi",
-      description: "Complimentary high-speed internet access throughout the property."
+      description: "Complimentary high-speed internet access in all rooms and common areas."
     },
     {
       icon: Coffee,
-      title: "Coffee Lounge",
-      description: "Artisan coffee bar serving premium blends and light refreshments."
+      title: "Tea Lounge",
+      description: "Traditional tea service featuring local varieties and light snacks."
     },
     {
       icon: Shield,
       title: "24/7 Concierge",
-      description: "Dedicated concierge service to assist with all your needs."
+      description: "Round-the-clock assistance for local sightseeing and travel arrangements."
     },
     {
       icon: Gift,
-      title: "Luxury Spa",
-      description: "Full-service spa offering rejuvenating treatments and wellness services."
+      title: "Cultural Tours",
+      description: "Guided tours to nearby temples, historical sites, and local attractions."
     }
   ];
 
